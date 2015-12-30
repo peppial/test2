@@ -4,7 +4,7 @@ using System.Web.Mvc;
 
 namespace CashWaveWeb.Infrastructure
 {
-    public class IeRazorViewEngine : RazorViewEngine
+    public class IeRazorViewEngine 
     {
         public override ViewEngineResult FindView(ControllerContext controllerContext, string viewName, string masterName, bool useCache)
         {
