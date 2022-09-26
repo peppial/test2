@@ -6,6 +6,9 @@ name: CI
 on:
   workflow_dispatch:
     inputs:
+      name:
+        description: 'Release tag (e.g. 1.5.0)'
+        required: true
       source:
         description: 'Source of event'
         required: false
